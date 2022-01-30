@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameHub</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="header">
+    <div class="container">
+        <div class="navbar">
+         <div class="logo">
+            <a href="index.html"><img src="images/gamehublogo.png" width="125px"></a>
+        </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="newgames.html">New Games</a></li>
+                <li><a href="usedgames.html">Used Games</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="account.html">Account</a></li>
+            </ul>
+        </nav>
+        <a href="cart.html"><img src="images/cart.png" width="40px" height="40px"></a>
+        <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+    </div>
+    </div>
+
+<!------- Catalog ------->
+
+ <!-------- products -------> 
+    <div class="small-container">
+        <div class="row row-2">
+            <h2>Used Games</h2>
+            <select>
+                <option>Default Sorting</option>
+                <option>By price</option>
+                <option>By popularity</option>
+                <option>By sale</option>
+            </select>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <a href="productdetails.html"><img src="images/GameHub_covers4.jpg"></a>
+                <a href="productdetails.html"><h4>Furious</h4></a>
+                <p>299.00Kr</p>
+            </div>
+            <div class="col-4">
+                <a href="productdetails.html"><img src="images/GameHub_covers5.jpg"></a>
+                <h4>Assassin</h4>
+                <p>299.00Kr</p>
+            </div>
+            <div class="col-4">
+                <a href="productdetails.html"><img src="images/GameHub_covers6.jpg"></a>
+                <h4>Space War</h4>
+                <p>299.00Kr</p>
+            </div>
+            <div class="col-4">
+                <a href="productdetails.html"><img src="images/GameHub_covers7.jpg"></a>
+                <h4>Racing</h4>
+                <p>299.00Kr</p>
+            </div>
+        </div>
+        <h2 class="title">Top Games</h2>
+        <div class="row">
+            <div class="col-4">
+                <a href="productdetails.html"><img src="images/GameHub_covers.jpg"></a>
+                <h4>Ping Pong</h4>
+                <p>299.00Kr</p>
+            </div>
+            <div class="col-4">
+                <a href="productdetails.html"><img src="images/GameHub_covers2.jpg"></a>
+                <h4>Super Deluxe</h4>
+                <p>299.00Kr</p>
+            </div>
+            <div class="col-4">
+                <a href="productdetails.html"><img src="images/GameHub_covers3.jpg"></a>
+                <h4>Black</h4>
+                <p>299.00Kr</p>
+            </div>
+            <div class="col-4">
+                <a href="productdetails.html"><img src="images/GameHub_covers4.jpg"></a>
+                <h4>Furious</h4>
+                <p>299.00Kr</p>
+            </div>
+        </div>
+        <h2 class="title">New Games</h2>
+        <div class="row">
+            <div class="col-4">
+                <a href="productdetails.html"><img src="images/GameHub_covers5.jpg"></a>
+                <h4>Assassin</h4>
+                <p>299.00Kr</p>
+            </div>
+            <div class="col-4">
+                <a href="productdetails.html"><img src="images/GameHub_covers6.jpg"></a>
+                <h4>Space War</h4>
+                <p>299.00Kr</p>
+            </div>
+            <div class="col-4">
+                <a href="productdetails.html"><img src="images/GameHub_covers7.jpg"></a>
+                <h4>Racing</h4>
+                <p>299.00Kr</p>
+            </div>
+            <div class="col-4">
+                <a href="productdetails.html"><img src="images/GameHub_covers8.jpg"></a>
+                <h4>Boxer</h4>
+                <p>299.00Kr</p>
+            </div>
+        </div>
+        <h2 class="title">Used Games</h2>
+        <div class="row">
+            <div class="col-4">
+                <a href="productdetails.html"><img src="images/GameHub_covers9.jpg"></a>
+                <h4>Cyberpunk</h4>
+                <p>299.00Kr</p>
+            </div>
+            <div class="col-4">
+                <a href="productdetails.html"><img src="images/GameHub_covers10.jpg"></a>
+                <h4>Forge Legend</h4>
+                <p>299.00Kr</p>
+            </div>
+            <div class="col-4">
+                <a href="productdetails.html"><img src="images/GameHub_covers.jpg"></a>
+                <h4>Ping Pong</h4>
+                <p>299.00Kr</p>
+            </div>
+            <div class="col-4">
+                <a href="productdetails.html"><img src="images/GameHub_covers2.jpg"></a>
+                <h4>Super Deluxe</h4>
+                <p>299.00Kr</p>
+            </div>
+        </div>
+
+        <div class="page-btn">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+        </div>
+    </div>
+
+<!----- footer ---->
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android and ios Mobile Phone</p>
+                <div class="app-logo">
+                    <img src="images/play-store.png">
+                    <img src="images/app-store.png">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="images/gamehublogo.png">
+                <p>The Universe Of Games</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Quick Links</h3>
+                <ul>
+                    <a href="index.html"><li>Home</li></a>
+                    <a href="account.html"><li>Account</li></a>
+                    <a href="index.html"><li>About Us</li></a>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-----------toggle menu---------->
+
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px")
+                {
+                    MenuItems.style.maxHeight = "200px";
+                }
+            else
+                {
+                    MenuItems.style.maxHeight = "0px";
+                }
+        }
+    </script>
+
+
+</body>
+</html>
